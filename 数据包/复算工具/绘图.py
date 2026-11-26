@@ -138,6 +138,7 @@ def render(version, runs):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--font',help='可选中文字体文件或字体族')
+    parser.add_argument('--version', help='只生成指定版本，例如 V06')
     args=parser.parse_args()
     plt.rcParams.update({'font.family':select_font(args.font),
                          'axes.labelcolor':INK, 'xtick.color':INK,
@@ -148,6 +149,8 @@ def main():
         if run:
             groups[p.stem[:3]].append(run)
     for version,runs in groups.items():
+        if args.version and args.version != version:
+            continue
         render(version,runs)
 
 if __name__=='__main__':

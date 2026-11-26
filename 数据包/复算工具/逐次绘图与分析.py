@@ -171,6 +171,7 @@ def describe(run, cells):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--font',help='可选中文字体文件或字体族')
+    parser.add_argument('--version', help='只生成指定版本，例如 V06')
     args=parser.parse_args()
     plt.rcParams.update({'font.family':select_font(args.font),'axes.unicode_minus':False})
     groups=defaultdict(list)
@@ -178,12 +179,16 @@ def main():
         if run:=load(archive):
             groups[archive.stem[:3]].append(run)
     for version,runs in groups.items():
+        if args.version and args.version != version:
+            continue
         lines=[f'# {version} 逐次运行分析', '',
                '[返回版本汇总](README.md) · [逐次分析索引](../README.md)', '',
                '每个编号是一次去标识化运行。档案无法确认哪些编号属于同一人。'
                '漏答计入正确率分母，RT 中位数仅用正确且有记录的 J/F 作答，校正 d′ 按有效作答计算。'
                '有完整区块日志且达到计划区块数的条件才在图中连线。', '',
                ' · '.join(f"[{r['run_id']}](#{r['run_id'].lower()})" for r in runs), '']
+        if version=='V06':
+            lines.extend(['[逐次解读与问卷复核](逐次观察.md) · [新版汇总](README.md)', ''])
         for run in runs:
             cells=cells_for(run)
             draw_run(run,cells)
