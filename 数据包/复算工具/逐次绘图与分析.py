@@ -118,7 +118,7 @@ def paired_section(run):
 def describe(run, cells):
     rid=run['run_id']
     lines=[f'### {rid}', '',
-           f"[原始数据 ZIP](运行包/{rid}.zip) · 状态：{run['status']} · 计划顺序："+
+           f"[下载运行数据](运行包/{rid}.zip) · 状态：{run['status']} · 计划顺序："+
            ' → '.join(EMOS[e] for e in ordered_emotions(run)), '']
     if not cells:
         return lines+['没有计分试次，无法估计准确率或反应时。', '']
