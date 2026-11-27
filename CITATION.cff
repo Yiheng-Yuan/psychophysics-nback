@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this research archive and record the Git commit or archive version you used."
 title: "Emotion Induction, Visual Distraction, and Verbal N-Back: Psychophysics Research Archive"
 type: dataset
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-27"
 authors:
   - family-names: Yuan
