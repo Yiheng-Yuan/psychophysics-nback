@@ -4,7 +4,7 @@
 
 [数据与分析](数据包/README.md) · [历版实验代码](代码包/README.md) · [实验设计与文档](文档/README.md) · [情绪素材来源与下载](文档/情绪素材.md) · [引用](CITATION.cff) · [许可](LICENSE)
 
-归档版本：[1.0.1](https://github.com/Yiheng-Yuan/psychophysics-nback/tree/archive-v1.0.1)。引用时请注明归档标签或实际使用的提交。
+归档版本：[1.0.2](https://github.com/Yiheng-Yuan/psychophysics-nback/tree/archive-v1.0.2)。引用时请注明归档标签或实际使用的提交。
 
 **English abstract.** This course research archive documents a verbal N-back experiment on emotion induction and visual distraction. It includes versioned code, de-identified run data, and analyses. In the four complete V06 runs, the direction of the distraction-related response-time difference varied by run and emotion condition.
 
