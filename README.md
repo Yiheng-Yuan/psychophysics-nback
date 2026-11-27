@@ -2,7 +2,9 @@
 
 心理物理学综合设计实验。**上传与归档维护：Yiheng Yuan。**
 
-[数据与分析](数据包/README.md) · [历版实验代码](代码包/README.md) · [实验设计与文档](文档/README.md) · [情绪诱导素材](https://github.com/Yiheng-Yuan/psychophysics-nback/releases/tag/emotion-stimuli-v1)
+[数据与分析](数据包/README.md) · [历版实验代码](代码包/README.md) · [实验设计与文档](文档/README.md) · [情绪素材来源与下载](文档/情绪素材.md) · [引用](CITATION.cff) · [许可](LICENSE)
+
+**English abstract.** This course research archive documents a verbal N-back experiment on emotion induction and visual distraction. It includes versioned code, de-identified run data, and analyses. In the four complete V06 runs, the direction of the distraction-related response-time difference varied by run and emotion condition.
 
 ## 1. 研究问题
 
@@ -92,7 +94,7 @@ distance, i, j = min(
 
 **词序更新达到了预定的配额。** V05 的五次完整运行共 80 个区块，每区块都是 8 个匹配、8 个诱饵和 8 个普通非匹配。在已观察到的 2–4-back 中，两种距离的诱饵各 4 个。三次预测试中，首次出现的普通非匹配比熟悉的普通非匹配答得更快，三次分别答对 64/66、66/66 和 78/78。这个现象与被试所说的「凭词语印象作答」相符。 [跨版本数据](数据包/跨版本分析.md)
 
-**最后一版的情绪和干扰差异随人、随等级变化。** 四次运行均完成了三种情绪下的 1–3-back。比较共同的 1–3-back，积极、中性和消极条件的正确率分别为 **91.7%、92.0%、89.2%**，个体结果的高低顺序并不一致。在同一人、同一情绪和同一 N 下，有干扰时 36 个配对有 23 个反应较慢、13 个较快。正确率则有 13 个较高、14 个较低、9 个相同。 [V06 汇总](数据包/V06/README.md) · [逐次干扰差值与自评](数据包/V06/逐次配对.md)
+**最后一版的情绪和干扰差异随运行及等级变化。** 四次运行均完成了三种情绪下的 1–3-back。积极、中性和消极条件的正确率分别为 **91.7%、92.0%、89.2%**。每次每种情绪都有 144 个计分试次，所以合并试次与运行等权平均得到相同正确率。校正 d′ 先在各运行计算再等权平均，三种条件分别为 **2.81、2.74、2.63**。先合并试次再计算则为 **2.72、2.73、2.39**。对每次运行的 9 对同情绪、同 N 区块取正确反应时差的中位数，有干扰时三次变慢、一次变快。按运行取准确率配对差的均值，两次上升、两次下降。 [V06 汇总](数据包/V06/README.md) · [逐次干扰差值与自评](数据包/V06/逐次配对.md)
 
 **数据下载。** [逐次 ZIP 索引](数据包/运行索引.md)提供 27 次去标识化运行及 1 次运行故障摘要。运行包按版本整理，包含可取得的逐试次作答、反应时、区块统计、自评和配置。独立热身的成绩当场显示。
 

@@ -1,0 +1,9 @@
+# 许可证范围 / License scope
+
+Copyright (c) 2026 Yiheng Yuan
+
+- MIT：归档中由 Yiheng Yuan 独立创作且有权授权的实验程序和复算代码，包括代码包内的相应原创程序文件。全文见 LICENSES/MIT.txt。
+- CC BY 4.0：由 Yiheng Yuan 有权授权的公开去标识化数据、分析图表和原创文档。请按 CITATION.cff 所列归档信息署名，并标注实际使用的提交或版本。全文见 LICENSES/CC-BY-4.0.txt。
+- 第三方内容：图片、音频、影片、外部素材或代码及其权利标记继续遵循各自的来源和条款。本仓库的两项许可证不为这些内容授予权限。素材记录见 文档/情绪素材.md。
+
+MIT applies to original experiment and analysis code that Yiheng Yuan is authorized to license. CC BY 4.0 applies to the archived de-identified data, figures, and original documentation that Yiheng Yuan is authorized to license. Third-party materials retain their own terms and rights notices.

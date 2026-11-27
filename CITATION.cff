@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this research archive and record the Git commit or archive version you used."
+title: "Emotion Induction, Visual Distraction, and Verbal N-Back: Psychophysics Research Archive"
+type: dataset
+authors:
+  - family-names: Yuan
+    given-names: Yiheng
+repository-code: "https://github.com/Yiheng-Yuan/psychophysics-nback"
+url: "https://github.com/Yiheng-Yuan/psychophysics-nback"
+abstract: "A course research archive for a verbal N-back experiment on emotion induction and visual distraction. It documents experimental versions, de-identified behavioral runs, analyses, and reproducibility tools."
+keywords:
+  - n-back
+  - psychophysics
+  - emotion induction
+  - working memory
+  - visual distraction
