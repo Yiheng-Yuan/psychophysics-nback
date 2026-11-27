@@ -1,7 +1,5 @@
 # 情绪诱导、视觉干扰与词语 N-back
 
-心理物理学综合设计实验。**上传与归档维护：Yiheng Yuan。**
-
 [数据与分析](数据包/README.md) · [历版实验代码](代码包/README.md) · [实验设计与文档](文档/README.md) · [情绪素材来源与下载](文档/情绪素材.md) · [引用](CITATION.cff) · [许可](LICENSE)
 
 归档版本：[1.0.3](https://github.com/Yiheng-Yuan/psychophysics-nback/tree/archive-v1.0.3)。引用时请注明归档标签或实际使用的提交。
